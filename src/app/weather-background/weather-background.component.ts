@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './weather-background.component.scss'
 })
 export class WeatherBackgroundComponent {
-
+  public arrayOfRaiImages:Array<string> = [
+    ''
+  ]
 }
