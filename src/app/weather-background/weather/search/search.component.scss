@@ -1,10 +1,22 @@
 form {
+    position: relative;
+    width: 100%;
     input {
-        width: 100%;
+        width: calc(100% - 2rem); // subtract the padding left from 100%
         height: 34px;
         background-color: rgb(52, 51, 61);
         border: none;
         border-radius: 40px;
         outline: none;
+        padding-left: 2rem; // this one
+        color: white;
+    }
+    i {
+        position: absolute;
+        left: 0.5rem;
+        top: 50%;
+        transform: translate(0,-50%);
+        font-size: 1.2rem;
+        color: white;
     }
 }

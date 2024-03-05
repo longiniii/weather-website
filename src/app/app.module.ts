@@ -11,6 +11,10 @@ import { WeatherDailiesComponent } from './weather-background/weather/weather-da
 import { WeatherHourliesComponent } from './weather-background/weather/weather-hourlies/weather-hourlies.component';
 import { WeatherDailyFullInfoComponent } from './weather-background/weather/weather-daily-full-info/weather-daily-full-info.component';
 import { WeatherHourlyWindComponent } from './weather-background/weather/weather-hourly-wind/weather-hourly-wind.component';
+import { WeaatherFeelsLikeComponent } from './weather-background/weather/weather-daily-full-info/weaather-feels-like/weaather-feels-like.component';
+import { WeatherPrecipitationComponent } from './weather-background/weather/weather-daily-full-info/weather-precipitation/weather-precipitation.component';
+import { WeatherVisibilityComponent } from './weather-background/weather/weather-daily-full-info/weather-visibility/weather-visibility.component';
+import { WeatherHimidityComponent } from './weather-background/weather/weather-daily-full-info/weather-himidity/weather-himidity.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { WeatherHourlyWindComponent } from './weather-background/weather/weather
     WeatherDailiesComponent,
     WeatherHourliesComponent,
     WeatherDailyFullInfoComponent,
-    WeatherHourlyWindComponent
+    WeatherHourlyWindComponent,
+    WeaatherFeelsLikeComponent,
+    WeatherPrecipitationComponent,
+    WeatherVisibilityComponent,
+    WeatherHimidityComponent
   ],
   imports: [
     BrowserModule,
